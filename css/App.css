@@ -1,0 +1,58 @@
+.shoes-store {
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+.product-item img {
+  width: 100%;
+  height: auto;
+}
+.product-item button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.product-item button:hover {
+  background-color: darkgray;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.modal img {
+  width: 100%;
+  height: auto;
+}
+.modal button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.modal button:hover {
+  background-color: darkgray;
+}/*# sourceMappingURL=App.css.map */
